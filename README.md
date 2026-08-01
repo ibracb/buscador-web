@@ -1,4 +1,4 @@
-# buscador-web
+# Buscador Web
 
 ![C++](https://img.shields.io/badge/C%2B%2B-blue.svg)
 
