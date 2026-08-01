@@ -2,7 +2,7 @@
 
 ![C++](https://img.shields.io/badge/C%2B%2B-blue.svg)
 
-Buscador web en C++ que indexa páginas por URL y por palabra clave. Permite insertar páginas, buscar por URL, por palabra y autocompletar, todo a través de la entrada estándar.
+Herramienta CLI que actúa como un buscador web que indexa páginas por URL y por palabra clave. Permite insertar páginas, buscar por URL, por palabra y autocompletar, todo a través de la entrada estándar.
 
 ## Datos académicos
 
