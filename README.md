@@ -1,6 +1,7 @@
 # Buscador Web
 
 ![C++](https://img.shields.io/badge/C%2B%2B-blue.svg)
+![Universidad de Murcia](https://img.shields.io/badge/Universidad%20de%20Murcia-E03B23?style=flat&logo=graduation-cap&logoColor=white)
 
 Buscador web en C++ que indexa páginas por URL y por palabra clave. Permite insertar páginas, buscar por URL, por palabra y autocompletar, todo a través de la entrada estándar.
 
@@ -23,18 +24,20 @@ Buscador web en C++ que indexa páginas por URL y por palabra clave. Permite ins
 
 ## Estructura del proyecto
 
-Todo el código fuente se encuentra en el directorio `proyecto/`.
-
-| Archivo        | Responsabilidad                                                        |
-|----------------|------------------------------------------------------------------------|
-| `Main.cpp`     | Bucle principal: lee comandos de `stdin` y los envía al intérprete.    |
-| `Interprete.*` | Normaliza texto (tildes/acentos) e interpreta los comandos de usuario. |
-| `DicPaginas.*` | Coordina la tabla hash (URLs) y el árbol Trie (palabras).              |
-| `TablaHash.*`  | Almacena y consulta páginas por URL (hash con encadenamiento).         |
-| `ArbolTrie.*`  | Índice palabra → lista de páginas.                                     |
-| `NodoTrie.*`   | Nodo del árbol Trie.                                                   |
-| `Pagina.*`     | Modelo de datos: `relevancia`, `url`, `titulo`.                        |
-| `Makefile`     | Reglas de compilación y limpieza.                                      |
+```tree
+buscador-web/
+├── proyecto/                       # Código fuente del buscador
+│   ├── Arboltrie.cpp/.h            # Índice palabra → lista de páginas
+│   ├── DicPaginas.cpp/.h           # Fachada: coordina TablaHash + ArbolTrie
+│   ├── Interprete.cpp/.h           # Normaliza texto e interpreta comandos
+│   ├── Main.cpp                    # Bucle principal: lee comandos de stdin
+│   ├── Makefile                    # Reglas de compilación y limpieza
+│   ├── Nodotrie.cpp/.h             # Nodo del árbol Trie
+│   ├── Pagina.cpp/.h               # Modelo: relevancia, url, titulo
+│   └── TablaHash.cpp/.h            # Páginas por URL (hash con encadenamiento)
+├── .gitignore                      # Archivos y directorios ignorados por git
+└── README.md                       # Documentación principal del proyecto
+```
 
 ## Diagrama de módulos
 
