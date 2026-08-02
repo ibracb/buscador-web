@@ -14,7 +14,7 @@ Herramienta CLI que actúa como un buscador web que indexa páginas por URL y po
 
 | Integrantes | GitHub |
 |-------------|--------|
-| Ibrahim Cherif Barry | [ibrac](https://github.com/ibrac) |
+| Ibrahim Cherif Barry | [ibracb](https://github.com/ibracb) |
 | Carlos Ramírez Riquelme | — |
 
 ## Estado del proyecto
