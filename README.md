@@ -10,7 +10,7 @@ Herramienta CLI que actúa como un buscador web que indexa páginas por URL y po
 - **Asignatura**: Algoritmos y Estructuras de Datos I.
 - **Universidad**: Universidad de Murcia (UMU).
 - **Titulación**: Grado en Ingeniería Informática.
-- **Curso**: 2024 / 2025.
+- **Curso**: 2024/2025.
 
 | Integrantes | GitHub |
 |-------------|--------|
